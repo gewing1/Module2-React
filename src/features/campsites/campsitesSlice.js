@@ -10,6 +10,10 @@ export const selectCampsiteById = (id) => {
     );
 };
 
+export const selectFeaturedCampsite = () => {
+    return CAMPSITES.find((campsite) => campsite.featured);
+};
+
 // Previously used code which selects a random campsite:
 // export const selectRandomCampsite = () => {
 //     return CAMPSITES[Math.floor(Math.random()*CAMPSITES.length)]
