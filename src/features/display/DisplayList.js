@@ -23,8 +23,8 @@ const DisplayList = () => {
                             <AnimatedDisplayCard item={item} />
                         </Col>
                     )
-                );
-            })};
+                )
+            })}
         </Row>
     );
 };
